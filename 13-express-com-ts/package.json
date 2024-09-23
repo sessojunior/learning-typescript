@@ -1,0 +1,22 @@
+{
+  "name": "express-com-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+  "keywords": [],
+  "author": "Mario Sesso Junior <sessojunior@gmail.com> (https://www.sessojunior.com.br/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
