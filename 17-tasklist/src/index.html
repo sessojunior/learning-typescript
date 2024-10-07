@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas tarefas</title>
+  </head>
+
+  <body>
+    <h1>Minhas tarefas</h1>
+    <div id="app">
+
+      <p>Adicionar uma tarefa:</p>
+      <input type="text" id="inputAddTask" placeholder="Digite uma tarefa...">
+      <button id="btnAdd" onclick="handleAdd()">Adicionar</button>
+
+      <p>Procurar tarefas:</p>
+      <input type="text" id="inputSearchTask" placeholder="Pesquisar tarefa...">
+      <button id="btnSearch" onclick="handleSearch()">Procurar</button>
+
+      <p>Lista de tarefas:</p>
+      <ul id="listTasks"></ul>
+
+    </div>
+
+    <script defer src="../build/index.js"></script>
+  </body>
+
+</html>
